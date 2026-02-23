@@ -1,0 +1,334 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POWERFIT | Transform Your Body</title>
+    <meta
+      name="description"
+      content="Join the best fitness community at POWERFIT. Achieve your goals with modern equipment, professional trainers, and flexible plans."
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="loader">
+      <lottie-player
+        id="lottie-loader"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      >
+      </lottie-player>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"
+          >POWER<span class="highlight">FIT</span></a
+        >
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="programs.html" class="nav-link">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a href="trainers.html" class="nav-link">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a href="equipment.html" class="nav-link">Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="membership.html" class="nav-link">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link btn-nav">Join Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Scroll Progress -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <img src="images/header.jpg" alt="Gym Background" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+      <canvas id="hero-particles"></canvas>
+      <div class="container hero-content">
+        <h1 class="hero-title animate-on-scroll fade-up">
+          Transform Your Body,<br />
+          <span class="text-gradient">Transform Your Life</span>
+        </h1>
+        <p class="hero-subtitle animate-on-scroll fade-up delay-100">
+          Join the best fitness community and achieve your goals with
+          world-class facilities and expert guidance.
+        </p>
+        <div class="hero-btns animate-on-scroll fade-up delay-200">
+          <a href="membership.html" class="btn btn-primary glow-effect"
+            >Join Now <i class="fas fa-arrow-right"></i
+          ></a>
+          <a href="programs.html" class="btn btn-outline">View Programs</a>
+        </div>
+
+        <!-- Animated Shapes -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+      </div>
+      <a href="#features" class="scroll-down">
+        <div class="mouse">
+          <span class="wheel"></span>
+        </div>
+        <span class="arrow-down"><i class="fas fa-chevron-down"></i></span>
+      </a>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features section-padding">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll fade-up">
+          <h2 class="section-title">
+            Why Choose <span class="highlight">POWERFIT</span>?
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card animate-on-scroll fade-up delay-100">
+            <div class="icon-box">
+              <i class="fas fa-dumbbell"></i>
+            </div>
+            <h3>Modern Equipment</h3>
+            <p>
+              Train with the latest high-tech machines designed for maximum
+              efficiency.
+            </p>
+          </div>
+          <div class="feature-card animate-on-scroll fade-up delay-200">
+            <div class="icon-box">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Expert Trainers</h3>
+            <p>
+              Our certified professionals are here to guide you every step of
+              the way.
+            </p>
+          </div>
+          <div class="feature-card animate-on-scroll fade-up delay-300">
+            <div class="icon-box">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Flexible Plans</h3>
+            <p>
+              Membership options that fit your schedule and budget perfectly.
+            </p>
+          </div>
+          <div class="feature-card animate-on-scroll fade-up delay-400">
+            <div class="icon-box">
+              <i class="fas fa-carrot"></i>
+            </div>
+            <h3>Nutrition Support</h3>
+            <p>
+              Comprehensive diet plans and nutritional advice to fuel your body.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Preview -->
+    <section class="about section-padding bg-texture">
+      <div class="container about-container">
+        <div class="about-img-col animate-on-scroll slide-right">
+          <div class="img-wrapper">
+            <img src="images/about.jpg" alt="About Powerfit" />
+            <div class="badge">
+              <span class="count">10+</span>
+              <span class="badge-text">Years of<br />Excellence</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col animate-on-scroll slide-left">
+          <h4 class="sub-heading">About Us</h4>
+          <h2 class="section-title">We Are More Than Just A Gym</h2>
+          <p>
+            At POWERFIT, we believe fitness is not just a hobby, but a
+            lifestyle. We have helped over 5,000 members achieve their dream
+            physique.
+          </p>
+          <div class="about-features">
+            <div class="af-item">
+              <i class="fas fa-check-circle"></i>
+              <span>State-of-the-art facility</span>
+            </div>
+            <div class="af-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Certified fitness experts</span>
+            </div>
+          </div>
+          <a href="about.html" class="btn btn-primary mt-20">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Preview -->
+    <section class="programs section-padding">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll fade-up">
+          <h2 class="section-title">
+            Our <span class="highlight">Programs</span>
+          </h2>
+          <p class="section-desc">
+            Designed for all fitness levels to help you reach your peak.
+          </p>
+          <div class="title-underline"></div>
+        </div>
+        <div class="programs-grid">
+          <div class="program-card animate-on-scroll fade-up delay-100">
+            <div
+              class="program-bg"
+              style="background-image: url(&quot;images/program1.jpg&quot;)"
+            ></div>
+            <div class="program-content">
+              <div class="program-icon">
+                <i class="fas fa-weight-hanging"></i>
+              </div>
+              <h3>Weight Training</h3>
+              <a href="programs.html" class="details-btn"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="program-card animate-on-scroll fade-up delay-200">
+            <div
+              class="program-bg"
+              style="background-image: url(&quot;images/program2.jpg&quot;)"
+            ></div>
+            <div class="program-content">
+              <div class="program-icon"><i class="fas fa-running"></i></div>
+              <h3>Cardio Training</h3>
+              <a href="programs.html" class="details-btn"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="program-card animate-on-scroll fade-up delay-300">
+            <div
+              class="program-bg"
+              style="background-image: url(&quot;images/program3.jpg&quot;)"
+            ></div>
+            <div class="program-content">
+              <div class="program-icon"><i class="fas fa-fire"></i></div>
+              <h3>CrossFit</h3>
+              <a href="programs.html" class="details-btn"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="program-card animate-on-scroll fade-up delay-400">
+            <div
+              class="program-bg"
+              style="background-image: url(&quot;images/program4.jpg&quot;)"
+            ></div>
+            <div class="program-content">
+              <div class="program-icon">
+                <i class="fas fa-praying-hands"></i>
+              </div>
+              <h3>Yoga</h3>
+              <a href="programs.html" class="details-btn"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-20">
+          <a href="programs.html" class="btn btn-outline">View All Programs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-widget">
+          <a href="index.html" class="logo footer-logo"
+            >POWER<span class="highlight">FIT</span></a
+          >
+          <p>
+            Empowering you to reach your fitness goals with premium facilities
+            and expert guidance.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-widget">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="membership.html">Membership</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="programs.html">Weight Training</a></li>
+            <li><a href="programs.html">Cardio</a></li>
+            <li><a href="programs.html">CrossFit</a></li>
+            <li><a href="programs.html">Yoga</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Newsletter</h4>
+          <p>Subscribe for latest updates and offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 POWERFIT. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

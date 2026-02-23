@@ -1,0 +1,208 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | POWERFIT</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="loader">
+      <lottie-player
+        id="lottie-loader"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      >
+      </lottie-player>
+    </div>
+
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"
+          >POWER<span class="highlight">FIT</span></a
+        >
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="programs.html" class="nav-link">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a href="trainers.html" class="nav-link">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a href="equipment.html" class="nav-link">Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="membership.html" class="nav-link">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link active btn-nav">Join Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="page-header">
+      <div
+        class="page-header-bg"
+        style="background-image: url(&quot;images/header.jpg&quot;)"
+      ></div>
+      <div class="page-header-content">
+        <h1 class="page-title">Get In Touch</h1>
+        <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+      </div>
+    </header>
+
+    <section class="section-padding">
+      <div class="container contact-container">
+        <div class="contact-info animate-on-scroll slide-right">
+          <h2 class="section-title">
+            Start Your <span class="highlight">Journey</span> Today
+          </h2>
+          <p>
+            We are here to answer any questions you may have about our
+            experiences. Reach out to us and we'll respond as soon as we can.
+          </p>
+          <div class="info-item">
+            <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>123 Fitness Blvd, Muscle City, MC 90210</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>info@powerfit.com</p>
+            </div>
+          </div>
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12609.731086607565!2d-122.405293!3d37.785250!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808580858085%3A0x8085808580858085!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1561662450000"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+        <form
+          class="contact-form animate-on-scroll slide-left"
+          id="contactForm"
+        >
+          <h3 class="form-title">Send a Message</h3>
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" required />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-group">
+            <input type="tel" id="phone" />
+            <label for="phone">Phone Number</label>
+          </div>
+          <div class="input-group">
+            <textarea id="message" rows="5" required></textarea>
+            <label for="message">Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary glow-effect">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-widget">
+          <a href="index.html" class="logo footer-logo"
+            >POWER<span class="highlight">FIT</span></a
+          >
+          <p>
+            Empowering you to reach your fitness goals with premium facilities
+            and expert guidance.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-widget">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="membership.html">Membership</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="programs.html">Weight Training</a></li>
+            <li><a href="programs.html">Cardio</a></li>
+            <li><a href="programs.html">CrossFit</a></li>
+            <li><a href="programs.html">Yoga</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Newsletter</h4>
+          <p>Subscribe for latest updates and offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 POWERFIT. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipment | POWERFIT</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="loader">
+      <lottie-player
+        id="lottie-loader"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      >
+      </lottie-player>
+    </div>
+
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"
+          >POWER<span class="highlight">FIT</span></a
+        >
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="programs.html" class="nav-link">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a href="trainers.html" class="nav-link">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a href="equipment.html" class="nav-link active">Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="membership.html" class="nav-link">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link btn-nav">Join Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="page-header">
+      <div
+        class="page-header-bg"
+        style="background-image: url(&quot;images/header.jpg&quot;)"
+      ></div>
+      <div class="page-header-content">
+        <h1 class="page-title">Our Equipment</h1>
+        <div class="breadcrumb"><a href="index.html">Home</a> / Equipment</div>
+      </div>
+    </header>
+
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll fade-up">
+          <h2 class="section-title">
+            World Class <span class="highlight">Gear</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="equipment-grid">
+          <!-- Cardio -->
+          <div class="equipment-card animate-on-scroll fade-up delay-100">
+            <div class="eq-img-wrapper">
+              <img src="images/program2.jpg" alt="Cardio" />
+            </div>
+            <div class="eq-info">
+              <span class="eq-category">Cardio</span>
+              <h3>Advanced Treadmills</h3>
+              <p>
+                Latest models with interactive screens and heart rate
+                monitoring.
+              </p>
+            </div>
+          </div>
+          <div class="equipment-card animate-on-scroll fade-up delay-200">
+            <div class="eq-img-wrapper">
+              <img src="images/program2.jpg" alt="Bikes" />
+            </div>
+            <div class="eq-info">
+              <span class="eq-category">Cardio</span>
+              <h3>Spin Bikes</h3>
+              <p>High-performance spin bikes for intense cycling sessions.</p>
+            </div>
+          </div>
+
+          <!-- Strength -->
+          <div class="equipment-card animate-on-scroll fade-up delay-300">
+            <div class="eq-img-wrapper">
+              <img src="images/program1.jpg" alt="Dumbbells" />
+            </div>
+            <div class="eq-info">
+              <span class="eq-category">Strength</span>
+              <h3>Free Weights Zone</h3>
+              <p>Complete range of dumbbells up to 150lbs and olympic bars.</p>
+            </div>
+          </div>
+          <div class="equipment-card animate-on-scroll fade-up delay-100">
+            <div class="eq-img-wrapper">
+              <img src="images/program5.jpg" alt="Machines" />
+            </div>
+            <div class="eq-info">
+              <span class="eq-category">Strength</span>
+              <h3>Isolation Machines</h3>
+              <p>
+                Pin-loaded machines for targeting specific muscle groups safely.
+              </p>
+            </div>
+          </div>
+
+          <!-- Functional -->
+          <div class="equipment-card animate-on-scroll fade-up delay-200">
+            <div class="eq-img-wrapper">
+              <img src="images/program3.jpg" alt="Kettlebells" />
+            </div>
+            <div class="eq-info">
+              <span class="eq-category">Functional</span>
+              <h3>Kettlebells & Ropes</h3>
+              <p>Versatile equipment for dynamic functional training.</p>
+            </div>
+          </div>
+          <div class="equipment-card animate-on-scroll fade-up delay-300">
+            <div class="eq-img-wrapper">
+              <img src="images/program3.jpg" alt="Rig" />
+            </div>
+            <div class="eq-info">
+              <span class="eq-category">Functional</span>
+              <h3>CrossFit Rig</h3>
+              <p>Multi-station rig for pull-ups, squats, and gymnastics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-widget">
+          <a href="index.html" class="logo footer-logo"
+            >POWER<span class="highlight">FIT</span></a
+          >
+          <p>
+            Empowering you to reach your fitness goals with premium facilities
+            and expert guidance.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-widget">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="membership.html">Membership</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="programs.html">Weight Training</a></li>
+            <li><a href="programs.html">Cardio</a></li>
+            <li><a href="programs.html">CrossFit</a></li>
+            <li><a href="programs.html">Yoga</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Newsletter</h4>
+          <p>Subscribe for latest updates and offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 POWERFIT. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

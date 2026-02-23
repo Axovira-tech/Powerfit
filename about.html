@@ -1,0 +1,311 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | POWERFIT</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="loader">
+      <lottie-player
+        id="lottie-loader"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      >
+      </lottie-player>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"
+          >POWER<span class="highlight">FIT</span></a
+        >
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link active">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="programs.html" class="nav-link">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a href="trainers.html" class="nav-link">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a href="equipment.html" class="nav-link">Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="membership.html" class="nav-link">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link btn-nav">Join Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div
+        class="page-header-bg"
+        style="background-image: url(&quot;images/header.jpg&quot;)"
+      ></div>
+      <div class="page-header-content">
+        <h1 class="page-title">About Us</h1>
+        <div class="breadcrumb"><a href="index.html">Home</a> / About</div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-padding">
+      <div class="container about-container">
+        <div class="about-img-col animate-on-scroll slide-right">
+          <div class="img-wrapper">
+            <img src="images/about.jpg" alt="Gym Interior" />
+          </div>
+        </div>
+        <div class="about-text-col animate-on-scroll slide-left">
+          <h4 class="sub-heading">Our Story</h4>
+          <h2 class="section-title">
+            Building Stronger Communities Since 2014
+          </h2>
+          <p>
+            Welcome to POWERFIT, the premier destination for fitness
+            enthusiasts. Founded in 2014, we set out with a simple mission: to
+            create a gym that felt like a second home. A place where you are not
+            just a member number, but part of a thriving community.
+          </p>
+          <p>
+            Starting with a small warehouse and a passion for iron, we have
+            grown into a state-of-the-art facility featuring 30,000 sq ft of
+            workout space, top-tier equipment, and a team of world-class
+            trainers dedicated to your success.
+          </p>
+
+          <div class="about-features">
+            <div class="af-item">
+              <i class="fas fa-bullseye"></i>
+              <span>Goal-Oriented Training Programs</span>
+            </div>
+            <div class="af-item">
+              <i class="fas fa-users"></i>
+              <span>Supportive Community Atmosphere</span>
+            </div>
+            <div class="af-item">
+              <i class="fas fa-medal"></i>
+              <span>Award-Winning Facilities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section
+      class="section-padding bg-texture text-center animate-on-scroll fade-up"
+    >
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon-box"><i class="fas fa-users"></i></div>
+            <h3>5000+</h3>
+            <p>Happy Members</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box"><i class="fas fa-dumbbell"></i></div>
+            <h3>200+</h3>
+            <p>Modern Machines</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box"><i class="fas fa-user-graduate"></i></div>
+            <h3>50+</h3>
+            <p>Expert Trainers</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box"><i class="fas fa-clock"></i></div>
+            <h3>10+</h3>
+            <p>Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll fade-up">
+          <h2 class="section-title">
+            Success <span class="highlight">Stories</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+        <div
+          class="testimonial-slider-container animate-on-scroll fade-up delay-100"
+        >
+          <button id="prevBtn" class="slider-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="testimonial-track-container">
+            <ul class="testimonial-track" id="track">
+              <li class="testimonial-slide current-slide">
+                <div class="testimonial-content">
+                  <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                  </div>
+                  <p>
+                    "Joining POWERFIT was the best decision of my life. The
+                    trainers are incredible and the equipment is top-notch."
+                  </p>
+                  <div class="user-info">
+                    <div
+                      class="user-avatar"
+                      style="
+                        background-image: url(&quot;images/image_3.jpg&quot;);
+                      "
+                    ></div>
+                    <div class="user-details">
+                      <h4>Sarah Johnson</h4>
+                      <p>Lost 20lbs</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                  </div>
+                  <p>
+                    "The atmosphere here is unmatched. Everyone is so
+                    supportive. The 24/7 access fits my busy schedule
+                    perfectly."
+                  </p>
+                  <div class="user-info">
+                    <div
+                      class="user-avatar"
+                      style="
+                        background-image: url(&quot;images/image_4.jpg&quot;);
+                      "
+                    ></div>
+                    <div class="user-details">
+                      <h4>Mark Kevin</h4>
+                      <p>Muscle Gain</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="testimonial-slide">
+                <div class="testimonial-content">
+                  <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                  </div>
+                  <p>
+                    "Professional, clean, and motivating. The personal training
+                    program completely transformed my approach to fitness."
+                  </p>
+                  <div class="user-info">
+                    <div
+                      class="user-avatar"
+                      style="
+                        background-image: url(&quot;images/image_5.jpg&quot;);
+                      "
+                    ></div>
+                    <div class="user-details">
+                      <h4>Emily Rose</h4>
+                      <p>Marathon Runner</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button id="nextBtn" class="slider-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <div class="dots-nav" id="dotsNav"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-widget">
+          <a href="index.html" class="logo footer-logo"
+            >POWER<span class="highlight">FIT</span></a
+          >
+          <p>
+            Empowering you to reach your fitness goals with premium facilities
+            and expert guidance.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-widget">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="membership.html">Membership</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="programs.html">Weight Training</a></li>
+            <li><a href="programs.html">Cardio</a></li>
+            <li><a href="programs.html">CrossFit</a></li>
+            <li><a href="programs.html">Yoga</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Newsletter</h4>
+          <p>Subscribe for latest updates and offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 POWERFIT. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
